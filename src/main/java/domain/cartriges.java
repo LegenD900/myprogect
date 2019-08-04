@@ -13,6 +13,14 @@ public class cartriges {
     private String name;
     private Integer value;
 
+    public cartriges() {
+    }
+
+    public cartriges(String name, Integer value) {
+        this.name = name;
+        this.value = value;
+    }
+
     public Integer getId() {
         return id;
     }
